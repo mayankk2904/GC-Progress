@@ -1,0 +1,29 @@
+Information Security Policy
+
+1. Objective
+This policy defines the guidelines for protecting company information assets from
+unauthorized access, disclosure, modification, or destruction.
+
+2. Access Control
+Access to company systems must be granted based on the principle of least privilege.
+Employees must not share passwords or authentication credentials with anyone.
+
+3. Data Classification
+Company data is classified into Public, Internal, Confidential, and Restricted categories.
+Restricted data must be encrypted both at rest and in transit.
+
+4. Acceptable Use
+Company systems must only be used for authorized business purposes. Installing
+unauthorized software is strictly prohibited.
+
+5. Incident Management
+Any suspected security incident must be reported to the IT security team within
+24 hours. Failure to report incidents may result in disciplinary action.
+
+6. Remote Work Security
+Employees working remotely must use company-approved VPNs and ensure devices
+are protected with updated antivirus software.
+
+7. Compliance
+All employees must comply with this policy. Non-compliance may lead to termination
+or legal action.
