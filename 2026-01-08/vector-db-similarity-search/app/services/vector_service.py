@@ -1,6 +1,6 @@
-from app.db.chroma_client import collection
 from app.services.embedding_service import generate_embedding
-from app.db.chroma_client import collection
+from app.db.chroma_client import collection, client
+
 import re
 
 DEFAULT_N_RESULTS = 5
@@ -9,13 +9,12 @@ DEFAULT_MAX_DISTANCE = 0.25
 
 
 def chunk_text(text: str):
-    # Split by numbered sections like "1. Purpose", "2. Annual Leave"
     sections = re.split(r"\n\d+\.\s+", text)
 
     chunks = []
     for section in sections:
         cleaned = section.strip()
-        if len(cleaned) > 50:  # ignore tiny chunks
+        if cleaned:
             chunks.append(cleaned)
 
     return chunks
@@ -25,25 +24,29 @@ def chunk_text(text: str):
 # CREATE
 def add_document(doc_id: str, text: str):
     chunks = chunk_text(text)
-
+    
     embeddings = []
     ids = []
     metadatas = []
-
+    
     for i, chunk in enumerate(chunks):
         embeddings.append(generate_embedding(chunk))
         chunk_id = f"{doc_id}_chunk_{i}"
         ids.append(chunk_id)
         metadatas.append({"doc_id": doc_id, "chunk_id": chunk_id})
-
+    
     collection.add(
         documents=chunks,
         embeddings=embeddings,
         ids=ids,
-        metadatas=metadatas  # store the chunk IDs in metadata
+        metadatas=metadatas
     )
-
-
+    
+    # REMOVE THIS LINE - PersistentClient doesn't need explicit persist()
+    # client.persist()
+    
+    print(f"✅ Added {len(chunks)} chunks for document {doc_id}")
+    print(f"✅ Vector count:", collection.count())
 
 # READ
 def query_documents(
@@ -81,17 +84,17 @@ def query_documents(
 
 # UPDATE
 def update_document(doc_id: str, new_text: str):
-    new_embedding = generate_embedding(new_text)
+    results = collection.get(where={"doc_id": doc_id})
+    old_ids = results["ids"]
 
-    collection.update(
-        ids=[doc_id],
-        documents=[new_text],
-        embeddings=[new_embedding]
-    )
+    collection.delete(ids=old_ids)
+    add_document(doc_id, new_text)
+
 
 # DELETE
 def delete_document(doc_id: str):
-    collection.delete(ids=[doc_id])
+    results = collection.get(where={"doc_id": doc_id})
+    collection.delete(ids=results["ids"])
 
 
 def get_all_documents(limit: int = 10):
@@ -99,3 +102,4 @@ def get_all_documents(limit: int = 10):
         limit=limit,
         include=["documents", "embeddings", "metadatas"]
     )
+

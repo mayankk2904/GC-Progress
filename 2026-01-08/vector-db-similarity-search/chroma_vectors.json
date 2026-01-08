@@ -1,0 +1,326 @@
+[
+  {
+    "id": "safety_policy_001_chunk_0",
+    "text": "1. All employees must complete safety training within their first 30 days.",
+    "metadata": {
+      "chunk_id": "safety_policy_001_chunk_0",
+      "doc_id": "safety_policy_001"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "safety_policy_001_chunk_1",
+    "text": "Safety equipment must be worn at all times in designated areas.",
+    "metadata": {
+      "chunk_id": "safety_policy_001_chunk_1",
+      "doc_id": "safety_policy_001"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "safety_policy_001_chunk_2",
+    "text": "Report any accidents or hazards immediately to your supervisor.",
+    "metadata": {
+      "chunk_id": "safety_policy_001_chunk_2",
+      "doc_id": "safety_policy_001"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "safety_policy_001_chunk_3",
+    "text": "Fire exits must be kept clear at all times.",
+    "metadata": {
+      "chunk_id": "safety_policy_001_chunk_3",
+      "doc_id": "safety_policy_001"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "safety_policy_001_chunk_4",
+    "text": "Emergency drills will be conducted quarterly.",
+    "metadata": {
+      "chunk_id": "safety_policy_001_chunk_4",
+      "doc_id": "safety_policy_001"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "safety_policy_001",
+    "text": "1. All employees must complete safety training within their first 30 days.",
+    "metadata": {
+      "doc_id": "safety_policy_001",
+      "source": "seed"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "leave_policy_chunk_0",
+    "text": "Company Leave Policy",
+    "metadata": {
+      "chunk_id": "leave_policy_chunk_0",
+      "doc_id": "leave_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "leave_policy_chunk_1",
+    "text": "Purpose\nThe purpose of this leave policy is to provide employees with time off from work for rest, personal matters, illness, and other life events while ensuring smooth business operations.",
+    "metadata": {
+      "chunk_id": "leave_policy_chunk_1",
+      "doc_id": "leave_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "leave_policy_chunk_2",
+    "text": "Annual Leave\nEmployees are entitled to 24 days of paid annual leave per calendar year. Annual leave accrues monthly and must be approved by the reporting manager. Unused leave may be carried forward up to a maximum of 10 days.",
+    "metadata": {
+      "chunk_id": "leave_policy_chunk_2",
+      "doc_id": "leave_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "leave_policy_chunk_3",
+    "text": "Sick Leave\nEmployees are entitled to 12 days of sick leave per year. Sick leave can be used in case of illness or medical emergencies. Medical certificates are required for absences exceeding two consecutive working days.",
+    "metadata": {
+      "chunk_id": "leave_policy_chunk_3",
+      "doc_id": "leave_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "leave_policy_chunk_4",
+    "text": "Casual Leave\nCasual leave of up to 6 days per year may be taken for personal matters. Casual leave cannot be carried forward to the next year.",
+    "metadata": {
+      "chunk_id": "leave_policy_chunk_4",
+      "doc_id": "leave_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "leave_policy_chunk_5",
+    "text": "Maternity Leave\nFemale employees are entitled to 26 weeks of paid maternity leave as per government regulations. Adoption leave of 12 weeks is also provided.",
+    "metadata": {
+      "chunk_id": "leave_policy_chunk_5",
+      "doc_id": "leave_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "leave_policy_chunk_6",
+    "text": "Paternity Leave\nMale employees are entitled to 10 working days of paternity leave, which must be used within three months of childbirth.",
+    "metadata": {
+      "chunk_id": "leave_policy_chunk_6",
+      "doc_id": "leave_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "leave_policy_chunk_7",
+    "text": "Leave Without Pay\nIf all leave balances are exhausted, leave without pay may be approved at management’s discretion.",
+    "metadata": {
+      "chunk_id": "leave_policy_chunk_7",
+      "doc_id": "leave_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "leave_policy_chunk_8",
+    "text": "Leave Approval Process\nAll leave requests must be submitted through the HR portal at least 3 days in advance, except in emergencies.",
+    "metadata": {
+      "chunk_id": "leave_policy_chunk_8",
+      "doc_id": "leave_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "code_of_conduct_chunk_0",
+    "text": "Employee Code of Conduct",
+    "metadata": {
+      "chunk_id": "code_of_conduct_chunk_0",
+      "doc_id": "code_of_conduct"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "code_of_conduct_chunk_1",
+    "text": "Professional Behavior\nEmployees must conduct themselves in a professional manner at all times. Harassment, discrimination, or abusive behavior will not be tolerated.",
+    "metadata": {
+      "chunk_id": "code_of_conduct_chunk_1",
+      "doc_id": "code_of_conduct"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "code_of_conduct_chunk_2",
+    "text": "Conflict of Interest\nEmployees must avoid situations where personal interests conflict with company interests. Any potential conflicts must be disclosed to management.",
+    "metadata": {
+      "chunk_id": "code_of_conduct_chunk_2",
+      "doc_id": "code_of_conduct"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "code_of_conduct_chunk_3",
+    "text": "Confidentiality\nEmployees must not disclose confidential company information to external parties without proper authorization.",
+    "metadata": {
+      "chunk_id": "code_of_conduct_chunk_3",
+      "doc_id": "code_of_conduct"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "code_of_conduct_chunk_4",
+    "text": "Workplace Ethics\nBribery, corruption, or unethical business practices are strictly prohibited.",
+    "metadata": {
+      "chunk_id": "code_of_conduct_chunk_4",
+      "doc_id": "code_of_conduct"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "code_of_conduct_chunk_5",
+    "text": "Disciplinary Action\nViolation of this code may result in disciplinary action including termination of employment.",
+    "metadata": {
+      "chunk_id": "code_of_conduct_chunk_5",
+      "doc_id": "code_of_conduct"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "security_policy_chunk_0",
+    "text": "Information Security Policy",
+    "metadata": {
+      "chunk_id": "security_policy_chunk_0",
+      "doc_id": "security_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "security_policy_chunk_1",
+    "text": "Objective\nThis policy defines the guidelines for protecting company information assets from unauthorized access, disclosure, modification, or destruction.",
+    "metadata": {
+      "chunk_id": "security_policy_chunk_1",
+      "doc_id": "security_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "security_policy_chunk_2",
+    "text": "Access Control\nAccess to company systems must be granted based on the principle of least privilege. Employees must not share passwords or authentication credentials with anyone.",
+    "metadata": {
+      "chunk_id": "security_policy_chunk_2",
+      "doc_id": "security_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "security_policy_chunk_3",
+    "text": "Data Classification\nCompany data is classified into Public, Internal, Confidential, and Restricted categories. Restricted data must be encrypted both at rest and in transit.",
+    "metadata": {
+      "chunk_id": "security_policy_chunk_3",
+      "doc_id": "security_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "security_policy_chunk_4",
+    "text": "Acceptable Use\nCompany systems must only be used for authorized business purposes. Installing unauthorized software is strictly prohibited.",
+    "metadata": {
+      "chunk_id": "security_policy_chunk_4",
+      "doc_id": "security_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "security_policy_chunk_5",
+    "text": "Incident Management\nAny suspected security incident must be reported to the IT security team within 24 hours. Failure to report incidents may result in disciplinary action.",
+    "metadata": {
+      "chunk_id": "security_policy_chunk_5",
+      "doc_id": "security_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "security_policy_chunk_6",
+    "text": "Remote Work Security\nEmployees working remotely must use company-approved VPNs and ensure devices are protected with updated antivirus software.",
+    "metadata": {
+      "chunk_id": "security_policy_chunk_6",
+      "doc_id": "security_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "security_policy_chunk_7",
+    "text": "Compliance\nAll employees must comply with this policy. Non-compliance may lead to termination or legal action.",
+    "metadata": {
+      "chunk_id": "security_policy_chunk_7",
+      "doc_id": "security_policy"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "another_doc_chunk_0",
+    "text": "1. Another document for testing.",
+    "metadata": {
+      "chunk_id": "another_doc_chunk_0",
+      "doc_id": "another_doc"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "test_doc_001_chunk_0",
+    "text": "1. Updated first item. 2. Updated second item.",
+    "metadata": {
+      "chunk_id": "test_doc_001_chunk_0",
+      "doc_id": "test_doc_001"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "test_doc_001_chunk_1",
+    "text": "Safety equipment is mandatory in labs.",
+    "metadata": {
+      "chunk_id": "test_doc_001_chunk_1",
+      "doc_id": "test_doc_001"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "test_doc_001_chunk_2",
+    "text": "Report incidents within 24 hours.",
+    "metadata": {
+      "chunk_id": "test_doc_001_chunk_2",
+      "doc_id": "test_doc_001"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "test_doc_001_chunk_3",
+    "text": "Follow emergency procedures.",
+    "metadata": {
+      "chunk_id": "test_doc_001_chunk_3",
+      "doc_id": "test_doc_001"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "doc_1_chunk_0",
+    "text": "1. First doc. 2. Second item.",
+    "metadata": {
+      "chunk_id": "doc_1_chunk_0",
+      "doc_id": "doc_1"
+    },
+    "embedding_dim": 768
+  },
+  {
+    "id": "doc_2_chunk_0",
+    "text": "1. Another document.",
+    "metadata": {
+      "chunk_id": "doc_2_chunk_0",
+      "doc_id": "doc_2"
+    },
+    "embedding_dim": 768
+  }
+]
